@@ -24,9 +24,11 @@ class PlaylistsService {
 
     const playlist = result.rows[0];
     const exportResult = {
-      id: playlist.id,
-      name: playlist.name,
-      songs: resultSongs.rows,
+      playlist: {
+        id: playlist.id,
+        name: playlist.name,
+        songs: resultSongs.rows,
+      },
     };
 
     return exportResult;
