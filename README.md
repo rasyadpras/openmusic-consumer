@@ -9,4 +9,5 @@ Proyek ini dibangun sebagai proyek ketiga (akhir) di kelas [Belajar Fundamental 
 
 1. Clone repository.
 2. Install dependencies dengan menjalankan perintah ```npm install```.
-3. Gunakan perintah ```npm start``` untuk menjalankan di lokal.
+3. Atur setting environtment sesuai format pada file ```.env.example```.
+4. Gunakan perintah ```npm run start``` untuk menjalankan di lokal.
